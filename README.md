@@ -162,6 +162,72 @@ Résult : Avril
 Pour cet exercices, vous devez aussi présenter une version qui utilise le sélecteur de cas(à trouver sur internet)
 
 
+## Bonus exercise
+
+[code](src/ExerciceBonus.java)
+
+Écrivez un petit programme Java, Degre3.java, vous permettant d'évaluer un polynôme du
+3ème degré de la forme:
+((a+b)/2)x3 + (a+b)2x2 + a + b + c
+
+    Exemple d'exécution:
+    Entrez a (int) : 1
+    Entrez b (int) : 2
+    Entrez c (int) : 3
+    Entrez x (double) : 3.5
+    La valeur du polynôme est : 180.5625
+
+Note: **How??** 😕 😡 😡 😡 😡 😡
+
+
+## For loop
+
+[code](src/ForLoop.java)
+
+## Exercise 10
+
+[code](src/Exercice10.java)
+
+Écrivez un programme Tables.java affichant les tables de multiplication de 2 à 10.
+Votre programme devra produire la sortie suivante à l'écran :
+
+Tables de multiplication
+
+Table de 2 :
+1 * 2 = 2
+...
+10 * 2 = 20
+...
+Table de 5 :
+1 * 5 = 5
+2 * 5 = 10
+... ...
+Table de 10 :
+1 * 10 = 10 …
+
+
+## Exercise 11
+
+[code](src/Exercice11.java)
+
+Écrivez un programme Java qui demande à l'utilisateur d'entrer un nombre et qui ensuite va calculer et afficher la factorielle de ce nombre:
+
+Ex:
+
+Nombre : 3
+
+Factorielle de 3 : 3x2x1 = 6
+
+Regle de calcul de factorielle : http://villemin.gerard.free.fr/Denombre/Factorie.htm
+
+## Exercise 12
+
+[code](src/Exercice12.java)
+
+Ecrire un algorithme qui demande un nombre de départ, et qui ensuite affiche 
+les dix nombres suivants. Par exemple, si l'utilisateur entre le nombre 17, 
+le programme affichera les nombres de 18 à 27.
+
 
 
 

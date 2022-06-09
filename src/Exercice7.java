@@ -23,7 +23,6 @@ public class Exercice7 {
             boolean isEven = (n % 2 == 0);
             boolean isPositive = (n > 0);
 
-
             String sign = isPositive ? "is positive" : "is negative";
             String evenOrOdd = isPositive ? "is even" : "is odd";
 
