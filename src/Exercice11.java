@@ -14,15 +14,19 @@ public class Exercice11 {
         Regle de calcul de factorielle : http://villemin.gerard.free.fr/Denombre/Factorie.htm
 */
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter number: ");
+        System.out.print("Enter number: ");
 
         int n = input.nextInt();
         int factoriel = 1;
+        String fctString = "1";
 
         for (int i = 1; i <= n; i++) {
             factoriel *= i;
+            if (i > 1) {
+                fctString += "x" + i;
+            }
 
         }
-        System.out.println(factoriel);
+        System.out.println(fctString + " = " + factoriel);
     }
 }

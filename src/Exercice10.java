@@ -22,17 +22,17 @@ public class Exercice10 {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.print("First number");
+        System.out.print("First number: ");
         int n1 = input.nextInt();
 
-        System.out.print("Second number");
+        System.out.print("Second number: ");
         int n2 = input.nextInt();
 
         int endNumber = Math.max(n1, n2);
         int firstNumber = Math.min(n1, n2);
 
         for (int i = firstNumber; i <= endNumber; i++) {
-            System.out.printf(" =================== \nTable de multiplication %d:\n =================== \n", i);
+            System.out.printf("================= \nTable de %d:\n================= \n", i);
             for (int j = 2; j <= 10; j++) {
 
                 int result = i * j;
