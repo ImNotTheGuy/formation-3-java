@@ -12,5 +12,7 @@ public class MathFunctions {
 
         Math.pow(25, 3);
 
+
+
     }
 }
