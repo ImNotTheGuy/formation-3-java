@@ -82,10 +82,87 @@ float weight = input.nextFloat();
 
 - Go to [code](src/MathFunctions.java)
 
-| Example of functions |       Code       | 
-|:---------------------|:----------------:| 
-| $\sqrt{x}$           |  `Math.sqrt(x)`  |
-| $x^{n}$              | `Math.pow(x, n)` |
+|   $f(x)    |       Code       | 
+|:----------:|:----------------:| 
+| $\sqrt{x}$ |  `Math.sqrt(x)`  |
+|  $x^{n}$   | `Math.pow(x, n)` |
 
-- See the official `Math` library documentation: [here](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html) 
+- See the official `Math` [documentation](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html) for all 
+available functions.
+
+## Constants
+
+- Go to [code](src/Constants.java)
+
+Constant value are declared with the prefix `final`, such as:
+
+`final double EARTH_GRAVITY = 9.81;`
+
+By convention, a constant variable shall be in full CAPS, with words separated by an underscore: `THIS_IS_A_CONSTANT`
+
+You can declare a variable by inference, which means you do not have to specify it's type.
+
+Example: 
+
+```
+var country = "France";
+```
+
+But you cannot do this:
+
+```
+var country;
+country = "France";
+```
+
+___ 
+
+# Exercises
+
+## Exercise 7
+
+[code](src/Exercice7.java)
+
+Ecrivez un programme Java qui lit un nombre et indique s'il est positif, négatif ou s'il vaut zéro et s'il est pair ou impair.
+
+Exemple d'exécution:
+
+Entrez un nombre entier: 5
+
+Le nombre est positif et impair
+
+Entrez un nombre entier: -4
+
+Le nombre est négatif et pair
+
+Entrez un nombre entier: 0
+
+Le nombre est zéro (et il est pair)
+
+## Exercise 8
+
+[code](src/Exercice8.java)
+
+Ecrivez un programme Java qui permet de résoudre une équation du 2nd degré de la forme ax2+bx+c = 0.
+L'utilisateur devra fournir a,b,c à partir du clavier, ensuite le programme lui donnera la solution
+Principe du fonctionnement d'une équation du 2nd degré:
+
+https://www.maths-et-tiques.fr/telech/Secondegre2ESL.pdf
+
+## Exercise 9
+
+[code](src/Exercice9.java)
+
+Ecrire un programme qui permet à l'utilisateur de saisir un entier entre 1 et 12 et qui affiche le nom du mois correspondant.
+
+Ex:
+Mois : 4
+Résult : Avril
+
+Pour cet exercices, vous devez aussi présenter une version qui utilise le sélecteur de cas(à trouver sur internet)
+
+
+
+
+
 
