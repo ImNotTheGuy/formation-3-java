@@ -210,6 +210,7 @@ Table de 10 :
 
 - Go to [code](src/courseDay1/Exercise/Exercice11.java)
 
+
 Écrivez un programme Java qui demande à l'utilisateur d'entrer un nombre et qui ensuite va calculer et afficher la factorielle de ce nombre:
 
 Ex:
@@ -228,7 +229,75 @@ Ecrire un algorithme qui demande un nombre de départ, et qui ensuite affiche
 les dix nombres suivants. Par exemple, si l'utilisateur entre le nombre 17, 
 le programme affichera les nombres de 18 à 27.
 
+___
+
+# 10.06.2022 - Continuing on Java fundamentals
+
+## While loops
+
+- Go to [code](src/courseDay2/course/WhileLoop.java)
+
+While loops are used in the cases where we don't know how many times the loop needs
+to be performed in order to satisfy the condition which will exit the loop.
+
+They work as follows:
+
+`while (a condition is TRUE)` &rarr; `Do stuff`
+
+Example: enter your pin code ==> we don't know how much tries the user will need
+to have the correct pin.
+
+Best practice is to instantiate a while loop with:
+
+`while (true) {}`
+
+Follow the 'DRY' (Do not Repeat Yourself) principle, but don't forget to keep hydrated 🍸
+
+The `do { something } while (condition);` syntax allows to execute at least once the 
+`something` before checking for the condition. This can be helpful when the `something`
+needs to be executed independently of whether the condition is `true` or `false`.
+
+## Exercice 13
+
+- Go to [code](src/courseDay2/exercise/Exercise13.java)
 
 
 
+    Ecrire un programme Javascript qui permet à l'utilisateur de définir une adresse email et un mot de passe.
+    Ensuite dans un second temps, il sera demandé à l'utilisateur de fournir l'email et le mot de passe:
+    Si l'email et le mot de passe ne correspondent pas aux valeurs définies, le message "Identifiants incorrect devra 
+    s'afficher", et l'utilisateur devra recommencer la saisie des valeurs.
+    Sinon, le message "Bienvenu dans votre espace client" devra s'afficher.
+
+## Exercice 14
+
+
+- Go to [code](src/courseDay2/exercise/Exercise14.java)
+
+
+    A l'exercice précédent, s'ajoute un nouveau requirement:
+    Le nombre de fois que l'utilisateur peut saisir des mauvais identifiants est limité à 5, 
+    ensuite le programme va s'arrêter avec un message disant.
+    "Vous avez saisi des mauvais identifiants x fois, votre compte est bloqué".
+    Il faut dire à au user le nombre de tentatives restants
+
+
+## Exercice 15
+
+
+- Go to [code](src/courseDay2/exercise/Exercise15.java)
+
+
+    Ajouter une validation de type de donnees pour que le code
+    PIN saisi ne soit compose que des chiffres
+
+## Arrays
+
+2 types of arrays.
+
+Fixed arrays and dynamic arrays
+
+### Fixed arrays
+
+- Go to [code](src/courseDay2/course/ArraysIntro.java)
 
