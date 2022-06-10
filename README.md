@@ -121,7 +121,7 @@ ___
 
 ## Exercise 7
 
-[code](src/Exercice7.java)
+- Go to [code](src/Exercice7.java)
 
 Ecrivez un programme Java qui lit un nombre et indique s'il est positif, négatif ou s'il vaut zéro et s'il est pair ou impair.
 
@@ -141,7 +141,7 @@ Le nombre est zéro (et il est pair)
 
 ## Exercise 8
 
-[code](src/Exercice8.java)
+- Go to [code](src/Exercice8.java)
 
 Ecrivez un programme Java qui permet de résoudre une équation du 2nd degré de la forme ax2+bx+c = 0.
 L'utilisateur devra fournir a,b,c à partir du clavier, ensuite le programme lui donnera la solution
@@ -151,7 +151,7 @@ https://www.maths-et-tiques.fr/telech/Secondegre2ESL.pdf
 
 ## Exercise 9
 
-[code](src/Exercice9.java)
+- Go to [code](src/Exercice9.java)
 
 Ecrire un programme qui permet à l'utilisateur de saisir un entier entre 1 et 12 et qui affiche le nom du mois correspondant.
 
@@ -164,7 +164,7 @@ Pour cet exercices, vous devez aussi présenter une version qui utilise le séle
 
 ## Bonus exercise
 
-[code](src/ExerciceBonus.java)
+- Go to [code](src/ExerciceBonus.java)
 
 Écrivez un petit programme Java, Degre3.java, vous permettant d'évaluer un polynôme du
 3ème degré de la forme:
@@ -182,11 +182,11 @@ Note: **How??** 😕 😡 😡 😡 😡 😡
 
 ## For loop
 
-[code](src/ForLoop.java)
+- Go to [code](src/ForLoop.java)
 
 ## Exercise 10
 
-[code](src/Exercice10.java)
+- Go to [code](src/Exercice10.java)
 
 Écrivez un programme Tables.java affichant les tables de multiplication de 2 à 10.
 Votre programme devra produire la sortie suivante à l'écran :
@@ -208,7 +208,7 @@ Table de 10 :
 
 ## Exercise 11
 
-[code](src/Exercice11.java)
+- Go to [code](src/Exercice11.java)
 
 Écrivez un programme Java qui demande à l'utilisateur d'entrer un nombre et qui ensuite va calculer et afficher la factorielle de ce nombre:
 
@@ -222,7 +222,7 @@ Regle de calcul de factorielle : http://villemin.gerard.free.fr/Denombre/Factori
 
 ## Exercise 12
 
-[code](src/Exercice12.java)
+- Go to [code](src/Exercice12.java)
 
 Ecrire un algorithme qui demande un nombre de départ, et qui ensuite affiche 
 les dix nombres suivants. Par exemple, si l'utilisateur entre le nombre 17, 
