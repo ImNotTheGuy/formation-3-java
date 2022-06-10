@@ -1,3 +1,5 @@
+package courseDay1.exercise;
+
 import java.util.Scanner;
 
 public class Exercice10 {

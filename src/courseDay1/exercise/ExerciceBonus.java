@@ -1,3 +1,5 @@
+package courseDay1.exercise;
+
 public class ExerciceBonus {
     public static void main(String[] args) {
         /*

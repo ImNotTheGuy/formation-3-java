@@ -1,3 +1,5 @@
+package courseDay1.course;
+
 import java.util.Scanner;
 
 public class Displays {

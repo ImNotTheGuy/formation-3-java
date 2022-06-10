@@ -1,3 +1,5 @@
+package courseDay1.course;
+
 public class MathFunctions {
     public static void main(String[] args) {
 

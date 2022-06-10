@@ -2,7 +2,7 @@
 
 ## Booleans
 
-- Go to [code](src/Boolean.java)
+- Go to [code](src/courseDay1/course/Boolean.java)
 
 Can only take one of the two values: `true` or `False`.
 
@@ -21,7 +21,7 @@ System.out.println(isOfAge(15)) --> false;
 
 ## Print options 
 
-- Go to [code](src/Displays.java)
+- Go to [code](src/courseDay1/course/Displays.java)
 
 To concatenate multiple variables into a print statement, you can use:
 
@@ -53,7 +53,7 @@ System.out.printf("You %s married", marriedStatus);
 
 ## Reading user input
 
-- Go to [code](src/Read.java)
+- Go to [code](src/courseDay1/course/Read.java)
 
 To read user input, we will need to import the `Scanner` class.
 
@@ -80,9 +80,9 @@ float weight = input.nextFloat();
 
 ## Math functions
 
-- Go to [code](src/MathFunctions.java)
+- Go to [code](src/courseDay1/course/MathFunctions.java)
 
-|   $f(x)    |       Code       | 
+|   $f(x)$   |       Code       | 
 |:----------:|:----------------:| 
 | $\sqrt{x}$ |  `Math.sqrt(x)`  |
 |  $x^{n}$   | `Math.pow(x, n)` |
@@ -92,7 +92,7 @@ available functions.
 
 ## Constants
 
-- Go to [code](src/Constants.java)
+- Go to [code](src/courseDay1/course/Constants.java)
 
 Constant value are declared with the prefix `final`, such as:
 
@@ -121,7 +121,7 @@ ___
 
 ## Exercise 7
 
-- Go to [code](src/Exercice7.java)
+- Go to [code](src/courseDay1/Exercise/Exercice7.java)
 
 Ecrivez un programme Java qui lit un nombre et indique s'il est positif, négatif ou s'il vaut zéro et s'il est pair ou impair.
 
@@ -141,7 +141,7 @@ Le nombre est zéro (et il est pair)
 
 ## Exercise 8
 
-- Go to [code](src/Exercice8.java)
+- Go to [code](src/courseDay1/Exercise/Exercice8.java)
 
 Ecrivez un programme Java qui permet de résoudre une équation du 2nd degré de la forme ax2+bx+c = 0.
 L'utilisateur devra fournir a,b,c à partir du clavier, ensuite le programme lui donnera la solution
@@ -151,7 +151,7 @@ https://www.maths-et-tiques.fr/telech/Secondegre2ESL.pdf
 
 ## Exercise 9
 
-- Go to [code](src/Exercice9.java)
+- Go to [code](src/courseDay1/Exercise/Exercice9.java)
 
 Ecrire un programme qui permet à l'utilisateur de saisir un entier entre 1 et 12 et qui affiche le nom du mois correspondant.
 
@@ -164,7 +164,7 @@ Pour cet exercices, vous devez aussi présenter une version qui utilise le séle
 
 ## Bonus exercise
 
-- Go to [code](src/ExerciceBonus.java)
+- Go to [code](src/courseDay1/Exercise/ExerciceBonus.java)
 
 Écrivez un petit programme Java, Degre3.java, vous permettant d'évaluer un polynôme du
 3ème degré de la forme:
@@ -186,7 +186,7 @@ Note: **How??** 😕 😡 😡 😡 😡 😡
 
 ## Exercise 10
 
-- Go to [code](src/Exercice10.java)
+- Go to [code](src/courseDay1/Exercise/Exercice10.java)
 
 Écrivez un programme Tables.java affichant les tables de multiplication de 2 à 10.
 Votre programme devra produire la sortie suivante à l'écran :
@@ -208,7 +208,7 @@ Table de 10 :
 
 ## Exercise 11
 
-- Go to [code](src/Exercice11.java)
+- Go to [code](src/courseDay1/Exercise/Exercice11.java)
 
 Écrivez un programme Java qui demande à l'utilisateur d'entrer un nombre et qui ensuite va calculer et afficher la factorielle de ce nombre:
 
@@ -222,7 +222,7 @@ Regle de calcul de factorielle : http://villemin.gerard.free.fr/Denombre/Factori
 
 ## Exercise 12
 
-- Go to [code](src/Exercice12.java)
+- Go to [code](src/courseDay1/Exercise/Exercice12.java)
 
 Ecrire un algorithme qui demande un nombre de départ, et qui ensuite affiche 
 les dix nombres suivants. Par exemple, si l'utilisateur entre le nombre 17, 

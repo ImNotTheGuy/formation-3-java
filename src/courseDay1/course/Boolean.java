@@ -1,3 +1,5 @@
+package courseDay1.course;
+
 public class Boolean {
 
 
@@ -8,7 +10,6 @@ public class Boolean {
     public static void main(String[] args) {
         System.out.println(isOfAge(18));
         System.out.println(isOfAge(15));
-
 
 
     }

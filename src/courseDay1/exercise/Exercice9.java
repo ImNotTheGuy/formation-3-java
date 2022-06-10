@@ -1,6 +1,5 @@
-import java.util.EnumMap;
-import java.util.HashMap;
-import java.util.Map;
+package courseDay1.exercise;
+
 import java.util.Scanner;
 
 public class Exercice9 {
