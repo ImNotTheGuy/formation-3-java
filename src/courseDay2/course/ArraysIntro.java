@@ -18,8 +18,6 @@ public class ArraysIntro {
                 1f,
         };
 
-
-
         float totalScore = 0;
 //        float minScore = 0;
 //        float maxScore = 0;
@@ -36,6 +34,8 @@ public class ArraysIntro {
         System.out.println("averageScore: " + averageScore);
 //        System.out.println("minScore: " + minScore);
 //        System.out.println("maxScore: " + maxScore);
+
+
 
 
     }

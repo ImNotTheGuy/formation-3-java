@@ -301,3 +301,5 @@ Fixed arrays and dynamic arrays
 
 - Go to [code](src/courseDay2/course/ArraysIntro.java)
 
+## Exercice 16
+
