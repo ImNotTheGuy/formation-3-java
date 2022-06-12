@@ -44,7 +44,6 @@ public class Exercice16AlternateSolution {
 
         }
 
-
         int currentElement;
         List<Integer> divisibleByThree = new ArrayList<>();
 
