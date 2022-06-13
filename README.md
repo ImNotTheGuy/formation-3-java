@@ -568,4 +568,8 @@ after 10 will have to be recomputed so that there is no gap between them.
     Ensuite le programme va afficher en % le taux d'adresse gmail, yahoo et hotmail.
     Essayer de le résoudre au plus, et essayer approche basé sur le HMap.
 
+Normal mode:
 - Go to [code](src/courseDay3/exercise/Exercice23.java)
+
+HasMap mode:
+- Go to [code](src/courseDay3/exercise/Exercice23WithHashMap.java)

@@ -1,7 +1,6 @@
-package courseDay3.exercice;
+package courseDay3.exercise;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.Scanner;
 
 public class Exercice22 {
@@ -31,7 +30,7 @@ public class Exercice22 {
             programmingLanguage.add(userInput);
         }
 
-        Object programmingBefore = programmingLanguage.clone();
+        var programmingBefore = programmingLanguage.clone();
 
         System.out.println("\nCurrent array: " + programmingLanguage + "\n");
 

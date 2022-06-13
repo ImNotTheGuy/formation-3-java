@@ -1,7 +1,6 @@
-package courseDay3.exercice;
+package courseDay3.exercise;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 
 public class Exercice23 {
@@ -15,6 +14,7 @@ public class Exercice23 {
         Essayer de le résoudre au plus, et essayer approche basé sur le HMap.
         */
 
+        // created
         String[] emails =  {
                 "christian.lisangola@gmail.com",
                 "jean.paul@gmail.com",
@@ -50,13 +50,5 @@ public class Exercice23 {
             occurrencePercentage = ((float) Collections.frequency(domainsWithDuplicates, currentDomain)) / numberOfEmails * 100;
             System.out.printf("Domain %s represents %s percent of the total emails\n", currentDomain, occurrencePercentage);
         }
-
-
-
-
-
-
-
-
     }
 }

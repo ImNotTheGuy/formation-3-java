@@ -1,8 +1,6 @@
-package courseDay3.exercice;
+package courseDay3.exercise;
 
 import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Set;
 
 public class Exercice23WithHashMap {
     public static void main(String[] args) {

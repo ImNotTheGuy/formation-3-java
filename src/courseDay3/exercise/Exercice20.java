@@ -1,6 +1,5 @@
-package courseDay3.exercice;
+package courseDay3.exercise;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Exercice20 {
