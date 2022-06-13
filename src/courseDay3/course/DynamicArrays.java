@@ -1,5 +1,6 @@
 package courseDay3.course;
 
+import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -39,6 +40,19 @@ public class DynamicArrays {
         // to delete an entry using index
         programmingLanguages.remove(0);
         System.out.println(programmingLanguages);
+
+        // Check if arrayList is empty:
+        System.out.println(programmingLanguages.isEmpty()?"The table is empty":"The table is not empty");
+
+        // to loop through each item:
+        for (int i = 0; i < programmingLanguages.size(); i++) {
+            System.out.println(programmingLanguages.get(i));
+        }
+
+        // To clear the whole array:
+        programmingLanguages.clear();
+        System.out.println(programmingLanguages);
+
 
 
 

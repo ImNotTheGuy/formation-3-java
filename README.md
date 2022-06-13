@@ -550,4 +550,22 @@ Note: when deleting an element from an `ArrayList`, it can be costly in computin
 power. Indeed, if you remove index=10 from a 1,000,000 rows array, all the indexes
 after 10 will have to be recomputed so that there is no gap between them.
 
+## Exercise 22
 
+    Ecrire un programme Java demande à l'utilisateur de saisir  liste de langages de programmations à partir du clavier.
+    Une fois le tableau rempli, l'utilisateur sera appelé à saisir les noms des langages qu'il souhaite retirer de liste.
+    Le programme devra ensuite retirer ces langages et afficher l'état du tableau avant et après la suppression.
+
+
+- Go to [code](src/courseDay3/exercise/Exercice22.java)
+
+
+## Exercise 23
+
+    Ecrire un programme Java qui remplit un tableau avec une liste des adresse email : 
+    christian.lisangola@gmail.com, jean.paul@gmail.com, alain@gmail.com, lydie@yahoo.fr, 
+    josephine.lajoie@yahoo.com, luise@hotmail.fr, philemon.turion@gmail.com, jules.cesar@hotmail.fr
+    Ensuite le programme va afficher en % le taux d'adresse gmail, yahoo et hotmail.
+    Essayer de le résoudre au plus, et essayer approche basé sur le HMap.
+
+- Go to [code](src/courseDay3/exercise/Exercice23.java)
