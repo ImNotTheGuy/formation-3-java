@@ -23,9 +23,10 @@ public class MultidemenstionalArrays {
         for (int i = 0; i < threeArray.length; i++) {
             for (int j = 0; j < threeArray[i].length; j++) {
                 System.out.printf("Element %d of array %d is %d\n", j, i, threeArray[i][j]);
-
             }
         }
 
     }
+
+
 }

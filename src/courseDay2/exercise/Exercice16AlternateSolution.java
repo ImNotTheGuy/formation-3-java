@@ -67,5 +67,9 @@ public class Exercice16AlternateSolution {
 
         System.out.printf("\nfor which the total sum is: " + ANSI_YELLOW + "%s", sumOfDivisibleByThree);
 
+
     }
+
+
+
 }

@@ -1,3 +1,42 @@
+# Table of contents
+
+
+- [Table of contents](#table-of-contents)
+- [09.06.2022 - Introduction to Java ☕](#09062022---introduction-to-java-)
+    - [Booleans](#booleans)
+    - [Print options](#print-options)
+    - [Reading user input](#reading-user-input)
+    - [Math functions](#math-functions)
+    - [Constants](#constants)
+- [Exercises](#exercises)
+    - [Exercise 7](#exercise-7)
+    - [Exercise 8](#exercise-8)
+    - [Exercise 9](#exercise-9)
+    - [Bonus exercise](#bonus-exercise)
+    - [For loop](#for-loop)
+    - [Exercise 10](#exercise-10)
+    - [Exercise 11](#exercise-11)
+    - [Exercise 12](#exercise-12)
+- [10.06.2022 - Continuing on Java fundamentals](#10062022---continuing-on-java-fundamentals)
+    - [While loops](#while-loops)
+    - [Exercice 13](#exercice-13)
+    - [Exercice 14](#exercice-14)
+    - [Exercice 15](#exercice-15)
+    - [Arrays](#arrays)
+        - [Fixed arrays](#fixed-arrays)
+    - [Exercice 16](#exercice-16)
+    - [Exercice 17](#exercice-17)
+- [13.06.2022 - Arrays continued; Introduction to functions](#13062022---arrays-continued-introduction-to-functions)
+    - [How are arrays stored in memory ?](#how-are-arrays-stored-in-memory-)
+        - [More info on String storage](#more-info-on-string-storage)
+        - [String methods](#string-methods)
+        - [Multidimensional tables](#multidimensional-tables)
+    - [Exercise 18](#exercise-18)
+
+
+
+
+
 # 09.06.2022 - Introduction to Java ☕
 
 ## Booleans
@@ -457,4 +496,30 @@ In your output, use: `System.out.println(ANSI_RED + "Some red text" + ANSI_RESET
 
 Note that if you do not specify at the end `+ ANSI_RESET` all remaining 
 output will be in red
+
+## Exercise 18
+
+    Ecrire un programme Java demande à l'utilisateur de saisir un text et qui ensuit, retourne la chaine inverse.
+    Ex:
+    Votre chaine : mamy
+    Résultat : ymam
+
+## Exercise 19
+    
+    Ecrire un programme Java demande à l'utilisateur de saisir un text et qui ensuit, renseigne si celui est un palindrome(mot qui se lit de la même dans les 2 sens).
+    Ex :
+    Entrez un text : non
+    Résultat : non est un palindrome
+    Entrez un text : oui
+    Résultat : oui n'est pas un palindrome
+
+## Exercise 20
+
+    Ecrire un programme java qui demande à l'utilisateur de remplir 
+    une matrice carré 4 x 4 et qui 
+    ensuite va calculer la somme des elements de la diagonale
+
+## Exercise 21
+
+    A partir du TP précédent, ajouter le calcul de la somme de 2 diagonales
 
