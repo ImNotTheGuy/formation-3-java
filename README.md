@@ -303,6 +303,17 @@ Fixed arrays and dynamic arrays
 
 ## Exercice 16
 
+    Ecrire un programme Java qui permet à l'utilisateur de déclarer 3 array d'entiers.
+    Ces tableaux ne doivent pas forcément avoir la même taille
+    Le programme doit ensuite fournir afficher les 3 tableaux en format [element1, element2,...,elementN]
+    et la somme de tous les éléments multiples 3 dans les 3 tableaux.
+    Ex :
+    T1 : [ 2, 6, 8, 15,39,11 ]
+    T2 : [ 21, 33, 12, 19,0 ]
+    T3 : [ 17, 18, 46 ]
+    S = 6+15+39+21+33+12+18 = 144
+
+
 1st solution:
 - Go to [code](src/courseDay2/exercise/Exercice16.java)
 
@@ -311,8 +322,139 @@ Fixed arrays and dynamic arrays
 
 ## Exercice 17
 
+        Ecrire un programme Java qui demande à l'utilisateur de remplir un tableau d'entiers à partir du clavier.
+        Puis le programme devra lui demander d'entrer un nombre à rechercher dans le tableau.
+        Si nombre existe, le programme lui dira que le nombre existe et le nombre de fois qu'ils se retrouve dans le tableau
+        Sinon le programme lui dira que le nombre recherché n'existe pas dans le tableau
+        Ex : tableau saisi à partir du clavier : 12,45,6,7,12,23,33,6,22,3,6
+        ->Entrer un nombre à rechercher : 6
+        ->6 existe et se retrouve 3 fois dans le tableau (edited)
+
+
 - Go to [code](src/courseDay2/exercise/Exercice17.java)
 
 
-# 13.06.2022 - 
+# 13.06.2022 - Arrays continued; Introduction to functions
+
+## How are arrays stored in memory ?
+
+2 types of variables:
+- primitive
+- objects
+
+Primitive types variables are declared with the 1st letter in **l**owercase, such as: `float; int; boolean`
+
+Ojects are declared with an **U**ppercase 1st letter, such as: `String, Scanner`
+
+When declaring primitive types, each variable has it's value stored.
+
+When declaring an array, we are only storing the memory address where the array is stored, called _pointers_.
+
+The elements of the array are stored in a continuous manner. First element is at index 0, second element is after index 0, etc.
+
+- Go to [code](src/courseDay3/course/ArrayStorage.java)
+
+```
+// This does not work as a is not yet initialized
+int a;
+System.out.println(a);
+
+// However, when we do this:
+int[] a = new int[5];
+System.out.println(a);
+// This will print the address at which the array a is stored in memory.
+
+// To display the actual elements of the array, we need to use:
+System.out.println(Arrays.toString(a));
+// The values showed will have been initiliazed to a default value 
+//(0 in the case of an integer).
+```
+
+In the case of a float/double array, default value: 0.0
+
+In the case of a String array, default value: null
+
+In the case of a boolean array, default value: false
+
+If you create an array and then another one that is equal to the first
+
+Each time you change an element of any array, it will automatically change the value of both.
+
+This is because each variable points to the same memory address.
+
+To create 2 distinct, non-linked arrays, do this:
+
+```
+int[] a = new int[3];
+int[] b = Arrays.copyOf(a);
+```
+
+To check equality of memory address of two arrays, do this:
+
+```
+System.out.println(a == b);
+```
+
+To check equality of values of two arrays, do this:
+
+```
+System.out.println(Arrays.equals(a, b));
+```
+
+### More info on String storage
+
+A `String` is simply an array composed of multiple `char`
+
+When creating two strings like this:
+
+```
+String name1 = "name";
+String name2 = "name";
+```
+
+Java will create a String pool and variable `name1` & `name2`. 
+To save memory, the 2 variables will point to a single address.
+
+However, if the variable `name1` is changed: `name1 = "nameUpdated"`
+a new address is created for `name1` but `name2` will still be equal to
+`"name"`
+
+**Note:** if a third variable `name3` is created through user input (_scanner_) with the same value,
+it will not be in the String pool and therefore address equality will not be met with the other variables.
+
+To put `name3` in the String pool, use: `name3 = name3.intern()`
+
+For more information on this topic, click [here](https://www.javatpoint.com/string-pool-in-java#:~:text=String%20pool%20is%20nothing%20but,by%20the%20Java%20String%20class.)
+
+    
+
+**N.B.** The string pool is specific to Strings and cannot be generalised to arrays.
+
+### String methods
+
+See the info in the code: [code](src/courseDay3/course/StringMethods.java)
+
+### Multidimensional tables
+
+- Go to [code](src/courseDay3/course/MultidemenstionalArrays.java)
+
+**Unrelated, but good to have:**
+
+If you wish to add colors in the terminal output, you can use some of the following:
+```
+final String ANSI_RESET = "\u001B[0m";
+final String ANSI_BLACK = "\u001B[30m";
+final String ANSI_RED = "\u001B[31m";
+final String ANSI_GREEN = "\u001B[32m";
+final String ANSI_YELLOW = "\u001B[33m";
+final String ANSI_BLUE = "\u001B[34m";
+final String ANSI_PURPLE = "\u001B[35m";
+final String ANSI_CYAN = "\u001B[36m";
+final String ANSI_WHITE = "\u001B[37m";
+```
+
+In your output, use: `System.out.println(ANSI_RED + "Some red text" + ANSI_RESET)`
+
+Note that if you do not specify at the end `+ ANSI_RESET` all remaining 
+output will be in red
 

@@ -17,38 +17,38 @@ public class Exercice17 {
         * */
 
         Scanner input = new Scanner(System.in);
-        int tableLength;
+        int arrayLength;
 
         while (true) {
             System.out.printf("Table length: ");
-            tableLength = input.nextInt();
-            if (tableLength >= 1){
+            arrayLength = input.nextInt();
+            if (arrayLength >= 1){
                 break;
             }
             System.out.println("Please positive number...");
         }
 
-        int[] table = new int[tableLength];
+        int[] array = new int[arrayLength];
 
-        for (int i = 0; i < table.length; i++) {
+        for (int i = 0; i < array.length; i++) {
             System.out.printf("Add a number into array: ");
-            table[i] = input.nextInt();
+            array[i] = input.nextInt();
         }
 
         System.out.printf("Number to lookup: ");
-        int searchNumber = input.nextInt();
+        int lookupNumber = input.nextInt();
         int counter = 0;
 
-        for (int i = 0; i < table.length; i++) {
-            if (table[i] == searchNumber){
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] == lookupNumber){
                 counter++;
             }
         }
 
         if (counter>0){
-            System.out.printf("Number %d exists and was found %d times", searchNumber, counter);
+            System.out.printf("Number %d exists and was found %d times", lookupNumber, counter);
         } else {
-            System.out.printf("Number %d was not found in the array", searchNumber);
+            System.out.printf("Number %d was not found in the array", lookupNumber);
         }
 
     }
