@@ -17,12 +17,19 @@ public class Exercice23WithHashMap {
                 "jules.cesar@hotmail.fr"
         };
 
-        HashMap<String, Float> hashMap = new HashMap<>();
 
+        HashMap<String, Float> hashMap = new HashMap<>();
         String currentDomain;
 
         for (int i = 0; i < emails.length; i++) {
-            currentDomain = emails[i].substring(emails[i].indexOf("@")+1);
+            // String manipulation to extract domain name.
+            String email = emails[i];
+            int startIndex = email.indexOf('@');
+            String tempDomain = email.substring(startIndex);
+            int endIndex = tempDomain.indexOf('.') + startIndex;
+            currentDomain = email.substring(startIndex+1, endIndex);
+            System.out.println(currentDomain);
+
             if (hashMap.containsKey(currentDomain)) {
                 hashMap.put(currentDomain, ((float) hashMap.get(currentDomain) * 8f + 1f) / 8f);
             } else {
