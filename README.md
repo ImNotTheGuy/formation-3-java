@@ -499,13 +499,18 @@ output will be in red
 
 ## Exercise 18
 
+- Go to [code](src/courseDay3/exercise/Exercice18.java)
+
     Ecrire un programme Java demande à l'utilisateur de saisir un text et qui ensuit, retourne la chaine inverse.
     Ex:
     Votre chaine : mamy
     Résultat : ymam
 
 ## Exercise 19
-    
+
+- Go to [code](src/courseDay3/exercise/Exercice19.java)
+
+
     Ecrire un programme Java demande à l'utilisateur de saisir un text et qui ensuit, renseigne si celui est un palindrome(mot qui se lit de la même dans les 2 sens).
     Ex :
     Entrez un text : non
@@ -515,11 +520,34 @@ output will be in red
 
 ## Exercise 20
 
+- Go to [code](src/courseDay3/exercise/Exercice20.java)
+
+
     Ecrire un programme java qui demande à l'utilisateur de remplir 
     une matrice carré 4 x 4 et qui 
     ensuite va calculer la somme des elements de la diagonale
 
 ## Exercise 21
 
+- Go to [code](src/courseDay3/exercise/Exercice21.java)
+
+
     A partir du TP précédent, ajouter le calcul de la somme de 2 diagonales
+
+
+## Dynamic arrays
+
+Dynamic arrays (DA) are used when size of arrays is not clear. 
+To declare a DA, use the following syntax:
+
+```
+ArrayList<Type> dynamicArray = new ArrayList<Type>
+```
+
+- Go to [code](src/courseDay3/course/DynamicArrays.java)
+
+Note: when deleting an element from an `ArrayList`, it can be costly in computing
+power. Indeed, if you remove index=10 from a 1,000,000 rows array, all the indexes
+after 10 will have to be recomputed so that there is no gap between them.
+
 
