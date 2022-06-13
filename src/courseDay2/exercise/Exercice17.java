@@ -22,7 +22,7 @@ public class Exercice17 {
         while (true) {
             System.out.printf("Table length: ");
             tableLength = input.nextInt();
-            if (tableLength > 1){
+            if (tableLength >= 1){
                 break;
             }
             System.out.println("Please positive number...");

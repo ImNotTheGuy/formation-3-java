@@ -44,9 +44,8 @@ public class Exercice16AlternateSolution {
 
         }
 
-        int currentElement;
         List<Integer> divisibleByThree = new ArrayList<>();
-
+        int currentElement;
         int sumOfDivisibleByThree = 0;
 
         for (int i = 0; i < nTables; i++) {
@@ -63,6 +62,7 @@ public class Exercice16AlternateSolution {
             }
             System.out.println();
         }
+
         System.out.printf("All elements divisible by 3: " + ANSI_YELLOW + "%s" + ANSI_RESET, divisibleByThree.toString());
 
         System.out.printf("\nfor which the total sum is: " + ANSI_YELLOW + "%s", sumOfDivisibleByThree);

@@ -28,7 +28,6 @@ public class Exercice16 {
         System.out.printf("Length of table 3: ");
         int[] table3 = new int[input.nextInt()];
 
-
         int totalMultipleOfThree = 0;
         String multipleOfThreeString = "";
 
@@ -62,16 +61,10 @@ public class Exercice16 {
             table3[i] = temp_val;
         }
 
-        System.out.println("Total multiples of 3: " + totalMultipleOfThree);
-        System.out.println("Values: " + multipleOfThreeString);
+        multipleOfThreeString = multipleOfThreeString.substring(3,multipleOfThreeString.length());
 
-
-
-//        arr[0] = ;
-
-
-        
-
+        System.out.println("\nMultiples of 3: " + multipleOfThreeString);
+        System.out.println("\n\nTotal multiples of 3: " + totalMultipleOfThree);
 
     }
 }

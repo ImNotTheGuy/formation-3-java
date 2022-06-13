@@ -303,3 +303,16 @@ Fixed arrays and dynamic arrays
 
 ## Exercice 16
 
+1st solution:
+- Go to [code](src/courseDay2/exercise/Exercice16.java)
+
+2nd solution using array of arrays:
+- Go to [code](src/courseDay2/exercise/Exercice16AlternateSolution.java)
+
+## Exercice 17
+
+- Go to [code](src/courseDay2/exercise/Exercice17.java)
+
+
+# 13.06.2022 - 
+
