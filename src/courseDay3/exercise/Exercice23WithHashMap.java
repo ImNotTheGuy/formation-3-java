@@ -6,7 +6,7 @@ public class Exercice23WithHashMap {
     public static void main(String[] args) {
 
 
-        // created this array
+        // created this array for readibility
         String[] emails =  {
                 "christian.lisangola@gmail.com",
                 "jean.paul@gmail.com",

@@ -26,11 +26,18 @@ public class Exercice23 {
                 "jules.cesar@hotmail.fr"
         };
 
+
+        // 2 arrayLists containing the domains (one with duplicates, one without)
+        // the one with no duplicates is used to have the list of the domains, while
+        // the other is used to count the occurrences of each domain name
         ArrayList<String> domainsNoDuplicates = new ArrayList<String>();
         ArrayList<String> domainsWithDuplicates = new ArrayList<String>();
 
         String currentEmail;
 
+        // loop through the emails list, do some string manipulation to extract the
+        // domain name. If domain name is not yet in NoDuplicates, add it. If it isn't,
+        // pass. In any case, add the domain to the WithDuplicates array
         for (int i = 0; i < emails.length; i++) {
             currentEmail = emails[i];
             String domainName = currentEmail.substring(currentEmail.indexOf('@'),currentEmail.length());
@@ -40,11 +47,15 @@ public class Exercice23 {
             }
         }
 
+        // for readibility
         float occurrencePercentage;
         int numberOfEmails = emails.length;
 
         System.out.println();
 
+        // loop through NoDuplicates, and for each item count the number of times
+        // it was found in the WithDuplicates array.
+        // Compute and output the % of occurrence / total(emails)
         for (int i = 0; i < domainsNoDuplicates.size(); i++) {
             String currentDomain = domainsNoDuplicates.get(i);
             occurrencePercentage = ((float) Collections.frequency(domainsWithDuplicates, currentDomain)) / numberOfEmails * 100;

@@ -579,3 +579,12 @@ Normal mode:
 
 HasMap mode:
 - Go to [code](src/courseDay3/exercise/Exercice23WithHashMap.java)
+
+
+# 14.06.2022 - HashMaps and OOP
+
+
+## Exercise 24
+
+- Go to [code](src/courseDay4/exercise/Exercice24.java)
+

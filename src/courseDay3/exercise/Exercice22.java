@@ -19,7 +19,6 @@ public class Exercice22 {
         Scanner input = new Scanner(System.in);
         ArrayList<String> programmingLanguage = new ArrayList<>();
 
-
         String userInput;
         while (true){
             System.out.printf("Add a programming language (when finished enter empty char): ");
