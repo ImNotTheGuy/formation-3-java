@@ -43,12 +43,12 @@ public class Exercice23 {
         float occurrencePercentage;
         int numberOfEmails = emails.length;
 
+        System.out.println();
 
         for (int i = 0; i < domainsNoDuplicates.size(); i++) {
             String currentDomain = domainsNoDuplicates.get(i);
-            System.out.println((float) Collections.frequency(domainsWithDuplicates, currentDomain) / numberOfEmails);
             occurrencePercentage = ((float) Collections.frequency(domainsWithDuplicates, currentDomain)) / numberOfEmails * 100;
-            System.out.printf("Domain %s represents %s percent of the total emails\n", currentDomain, occurrencePercentage);
+            System.out.printf("Domain %s represents %s %% of the total emails\n", currentDomain, occurrencePercentage);
         }
     }
 }

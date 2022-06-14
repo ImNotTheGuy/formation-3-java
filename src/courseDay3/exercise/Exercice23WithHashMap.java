@@ -6,6 +6,7 @@ public class Exercice23WithHashMap {
     public static void main(String[] args) {
 
 
+        // created this array
         String[] emails =  {
                 "christian.lisangola@gmail.com",
                 "jean.paul@gmail.com",
@@ -28,12 +29,14 @@ public class Exercice23WithHashMap {
             String tempDomain = email.substring(startIndex);
             int endIndex = tempDomain.indexOf('.') + startIndex;
             currentDomain = email.substring(startIndex+1, endIndex);
-            System.out.println(currentDomain);
 
+            // check if current domain name was already in hashMap.
+            // If it was, increment by 1/length (here 1/8)
+            // If it wasn't, then give it value 1/length
             if (hashMap.containsKey(currentDomain)) {
-                hashMap.put(currentDomain, ((float) hashMap.get(currentDomain) * 8f + 1f) / 8f);
+                hashMap.put(currentDomain, (hashMap.get(currentDomain) + 1f / (float) emails.length));
             } else {
-                hashMap.put(currentDomain, 1f/8f);
+                hashMap.put(currentDomain, 1f / (float) emails.length);
             }
         }
 
