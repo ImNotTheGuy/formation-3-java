@@ -38,5 +38,9 @@ public class Main {
 
         System.out.println("Full description: " + human.fullDescription());
 
+        int a = 1;
+        float b = 1f;
+
+        Math.min(a, b);
     }
 }

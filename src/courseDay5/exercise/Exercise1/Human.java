@@ -16,17 +16,28 @@ public class Human {
     fournir toutes ces données et enfin les afficher dans main.
     * */
 
+    private int a, b, c, d, e, f, g;
     private String firstName;
     private String lastName;
     private String country;
     private boolean married;
     private int numberOfKids;
+
     public Human(String firstName, String lastName, String country, boolean married, int numberOfKids) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.country = country;
         this.married = married;
         this.numberOfKids = numberOfKids;
+    }
+
+    public Human() {
+        System.out.println("Default constructor called");
+        firstName = "To";
+        lastName = "To";
+        country = "Africa";
+        married = false;
+        numberOfKids = 0;
     }
 
     public String getFirstName() {
