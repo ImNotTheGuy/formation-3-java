@@ -1,6 +1,4 @@
-package courseDay5.exercise.Exercice1;
-
-import javax.swing.*;
+package courseDay5.exercise.Exercise1;
 
 public class Human {
 
