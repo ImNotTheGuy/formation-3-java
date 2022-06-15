@@ -630,6 +630,54 @@ public static void main (String[] args){
 ```
 
 
+**Encapsulation & Abstraction**
 
+- Encapsulation is to regroup all member variables and methods into a same class.
+- Abstraction is the separation between the API and the details of its implementation.
+
+For example, when integrating the GoogleMaps API, we do not care about the underlying code.
+We just want it to work.
+
+src\courseDay1\course\Boolean.java
+src\courseDay1\course\Constants.java
+src\courseDay1\course\Displays.java
+src\courseDay1\course\ForLoop.java
+src\courseDay1\course\MathFunctions.java
+src\courseDay1\course\Read.java
+src\courseDay1\exercise\Exercice10.java
+src\courseDay1\exercise\Exercice11.java
+src\courseDay1\exercise\Exercice12.java
+src\courseDay1\exercise\Exercice7.java
+src\courseDay1\exercise\Exercice8.java
+src\courseDay1\exercise\Exercice9.java
+src\courseDay1\exercise\ExerciceBonus.java
+src\courseDay2\course\ArraysContinued.java
+src\courseDay2\course\ArraysContinued2.java
+src\courseDay2\course\ArraysIntro.java
+src\courseDay2\course\ChristianCode.java
+src\courseDay2\course\WhileLoop.java
+src\courseDay2\exercise\Exercice13.java
+src\courseDay2\exercise\Exercice14.java
+src\courseDay2\exercise\Exercice15.java
+src\courseDay2\exercise\Exercice16.java
+src\courseDay2\exercise\Exercice16AlternateSolution.java
+src\courseDay2\exercise\Exercice17.java
+src\courseDay3\course\ArrayStorage.java
+src\courseDay3\course\DynamicArrays.java
+src\courseDay3\course\MultidemenstionalArrays.java
+src\courseDay3\course\StringMethods.java
+src\courseDay3\exercise\Exercice18.java
+src\courseDay3\exercise\Exercice19.java
+src\courseDay3\exercise\Exercice20.java
+src\courseDay3\exercise\Exercice21.java
+src\courseDay3\exercise\Exercice22.java
+src\courseDay3\exercise\Exercice23.java
+src\courseDay3\exercise\Exercice23WithHashMap.java
+src\courseDay4\course\HashMaps.java
+src\courseDay4\course\Methods.java
+src\courseDay4\course\SumOfArrays.java
+src\courseDay4\exercise\Exercice24.java
+src\courseDay4\exercise\Exercice25.java
+src\courseDay5\course\Main.java
 
 
