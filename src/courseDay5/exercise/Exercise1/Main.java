@@ -6,32 +6,37 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-        Human human = new Human();
+
+        Human human = new Human("Jack", "TheCat", "UK", false, 0);
+
+        System.out.println(human.fullDescription());
 
         String tempInputStr;
 
         System.out.printf("First name: ");
-        human.firstName = input.next();
+        human.setFirstName(input.next());
 
         System.out.printf("Last name: ");
-        human.lastName = input.next();
+        human.setLastName(input.next());
 
         System.out.printf("Country: ");
-        human.country = input.next();
+        human.setCountry(input.next());
 
         System.out.printf("Are you married ? (y/n): ");
         tempInputStr = input.next();
 
         if (tempInputStr.equals("y")){
-            human.married = true;
+            human.setMarried(true);
         } else {
-            human.married = false;
+            human.setMarried(false);
         }
 
         System.out.printf("Number of kids: ");
-        human.numberOfKids = input.nextInt();
+        human.setNumberOfKids(input.nextInt());
 
         System.out.println("Your full name is: " + human.fullName());
+
+        System.out.println("Full description: " + human.fullDescription());
 
     }
 }
