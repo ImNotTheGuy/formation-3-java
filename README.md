@@ -588,3 +588,48 @@ HasMap mode:
 
 - Go to [code](src/courseDay4/exercise/Exercice24.java)
 
+
+# 15.06.2022 - Classes
+
+
+A class is a blueprint of an object. When creating an object using a class, it
+will take the members and the methods of that class.
+
+
+- Members are basically variables that describe the properties of an object and are the same
+for every object
+- Methods act on the behaviour on the object, usually dependant on the instances themselves
+
+It is possible to create a class and give it a constructor. The constructor is a method of 
+the class and has the same naming. It is used when first creating an object. It can take 
+parameters and can give unique _instance variables_ to the object it is called with.
+
+To create a class:
+
+```
+public class NewClass(){
+
+  int x = 100;
+  int y = 200;
+}
+```
+
+Here, `x` and `y` are both member variables of the class `NewClass`
+
+To create a class and access the member variables, create a Main class 
+with `psvm(String args[])` inside the package and inside main method: 
+
+```
+public static void main (String[] args){
+  
+  NewClass myClass = new NewClass();
+  
+  int memberVar1 = myClass.x;
+  int memberVar2 = myClass.y;
+}
+```
+
+
+
+
+

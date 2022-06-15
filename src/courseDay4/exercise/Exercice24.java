@@ -18,10 +18,16 @@ public class Exercice24 {
 
         Scanner input = new Scanner(System.in);
 
-
         HashMap<Integer, String> weekDayHashMap = new HashMap<>();
 
-        String weekDayStr[] = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
+        String weekDayStr[] = {
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"};
 
         int weekDayInt[] = new int[weekDayStr.length];
 
@@ -30,7 +36,6 @@ public class Exercice24 {
             weekDayInt[i] = i + 1;
             weekDayHashMap.put(i + 1, weekDayStr[i].toUpperCase());
         }
-
 
         boolean intSearch; // if true: the user wants to lookup by index (key); if false: by string (value)
         String searchType;
@@ -54,9 +59,7 @@ public class Exercice24 {
         int lookupInt;
         String lookupStr;
 
-
         while (true) {
-
 
             if (intSearch) {
 
