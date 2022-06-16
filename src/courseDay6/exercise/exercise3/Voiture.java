@@ -16,8 +16,4 @@ public class Voiture extends Vehicules {
         System.out.println("Voiture accelere.");
     }
 
-    @Override
-    public String toString() {
-        return this.getClass().getSimpleName() + "\n" + super.toString();
-    }
 }

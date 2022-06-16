@@ -16,8 +16,10 @@ public class Camion extends Vehicules {
         System.out.println("Camion accelere.");
     }
 
-    @Override
-    public String toString() {
-        return this.getClass().getSimpleName() + "\n" + super.toString();
+
+    // this can be accessed without instantiating the class
+    public static void klaxon(){
+        System.out.println("Honk honk motherfuckers");
     }
+
 }

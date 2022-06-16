@@ -63,8 +63,9 @@ public abstract class Vehicules {
     }
 
     @Override
-    public String toString() {
-        return "_____________\n" +
+    public final String toString() {
+        return  this.getClass().getSimpleName() +
+                "\n_____________\n" +
                 "matricule: " + matricule +
                 "\nanneeModele: " + anneeModele +
                 "\nprix: " + prix + "\n_____________\n";

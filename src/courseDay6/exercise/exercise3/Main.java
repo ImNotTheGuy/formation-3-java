@@ -15,8 +15,13 @@ public class Main {
         v1.demarrer();
         v1.accelerer();
 
+        System.out.println();
+        System.out.println();
+
         System.out.println(v1);
         System.out.println(c1);
+
+        Camion.klaxon();
 
     }
 
