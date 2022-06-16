@@ -39,5 +39,12 @@ public class Main {
 
         System.out.println(patient1);
 
+        try {
+            System.out.println("Trying 1 / 0");
+            int a = 1/0;
+        } catch (Exception e){
+            System.out.println("Caught exception: " + e);
+        }
+        System.out.println("code continues to run");
     }
 }
